@@ -1,12 +1,12 @@
-languageCode = "en-us"
-title = "Prologue"
+languageCode = "ru"
+title = "Коридор 34"
 baseurl = "/"
-theme = "prologue"
+theme = "Коридор 34"
 
 [params]
-  name = "Jane Doe"
+  name = "Коридор 34"
   description = "Музыкальная группа коридор 34. А также различные новости мира музыкальных инструментов."
-  copyright = "Untitled."
+  copyright = "С"
 
 [[params.social]]
   medium = "twitter"
