@@ -1,7 +1,7 @@
 languageCode = "ru"
 title = "Коридор 34"
 baseurl = "/"
-theme = "Коридор 34"
+theme = "prologue"
 
 [params]
   name = "Коридор 34"
