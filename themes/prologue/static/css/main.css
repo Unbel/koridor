@@ -8,7 +8,9 @@
 */
 
 /* Reset */
-
+#koko {
+	color: black;
+}
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -1580,7 +1582,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #666;
+		color: #000000;
 		line-height: 1.5em;
 	}
 
@@ -1590,7 +1592,7 @@
 	}
 
 		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
-			color: #333;
+			color: #000000;
 		}
 
 	h2 {
@@ -1599,11 +1601,11 @@
 	}
 
 		h2.alt {
-			color: #888;
+			color: #000000;
 		}
 
 			h2.alt strong {
-				color: #666;
+				color: #191919;
 			}
 
 	h3 {
@@ -1624,7 +1626,7 @@
 
 	strong, b {
 		font-weight: 300;
-		color: #666;
+		color: #000000;
 	}
 
 	em, i {
@@ -2153,16 +2155,28 @@
 		}
 
 			#main > section.dark {
-				color: #ddd;
+				color: #000;
 				color: rgba(255, 255, 255, 0.75);
 			}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
-					color: inherit;
+					color: #000;
+					text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
 				}
 
 				#main > section.dark strong {
-					color: #fff;
+					color: #000000;
 					border-color: inherit;
 				}
 

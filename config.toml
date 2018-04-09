@@ -5,7 +5,7 @@ theme = "prologue"
 
 [params]
   name = "Коридор 34"
-  description = "Музыкальная группа коридор 34. А также различные новости мира музыкальных инструментов."
+  description = "Музыкальная группа"
   copyright = "С"
 
 [[params.social]]
@@ -31,7 +31,7 @@ theme = "prologue"
 [[params.social]]
   medium = "email"
   icon = "envelope"
-  link = "#"
+  link = "olegibnserge@gmail.com"
 
 # Portfolio column one
 
